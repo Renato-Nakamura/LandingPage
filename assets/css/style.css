@@ -4,7 +4,7 @@
   box-sizing: content-box;
 }
 body {
-  background-image: url("/assets/img/bg-mobile.svg");
+  background-image: url("../img/bg-mobile.svg");
   background-size: 100vw;
   background-repeat: no-repeat;
   background-color: hsl(257, 40%, 49%);
@@ -82,7 +82,7 @@ body {
 }
 @media (min-width: 1000px) {
   body {
-    background-image: url("/assets/img/bg-desktop.svg");
+    background-image: url("../img/bg-desktop.svg");
     font-size: 20px;
   }
   .ilustracao img {
